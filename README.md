@@ -6,4 +6,4 @@ This repo contains the laboratory material needed for the course on [Designing D
 Lab on Column-Oriented Databases
 --------------------------------
 
-1.	install [hbase single node](./hbase-single) as explained in the [readme](./hbase-single/Readme.md)
+1.	install [hbase single node](./lab_column_oriented/hbase-single) as explained in the [readme](./lab_column_oriented/hbase-single/Readme.md)
