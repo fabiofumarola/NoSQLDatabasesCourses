@@ -35,13 +35,13 @@ docker run -d -p 2181:2181 -p 60010:60010 -p 60000:60000 -p 60020:60020 -p 60030
 
 sudo nano private/etc/hosts
 
-and add <ip docker machine> hbase-single
+and add <ip docker machine> hbase
 ```
 
 ### 3. connect to the image
 
 ```bash
 
-docker exec -it hbase_single bash
+docker exec -it hbase bash
 
 ```

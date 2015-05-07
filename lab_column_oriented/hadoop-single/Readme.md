@@ -14,7 +14,7 @@ Go to the folder containing the *Dockerfile* and run
 
 ```bash
 
- docker build --tag=hbase:single ./
+ docker build --tag=wheretolive/hbase:single ./
 
 ```
 
@@ -22,7 +22,7 @@ Go to the folder containing the *Dockerfile* and run
 
 ```bash
 
-docker run –d –p 2181:2181 -p 60010:60010 -p 60000:60000 -p 60020:60020 -p 60030:60030 –h hbase-single --name=hbase_single hbase:single
+docker run –d –p 2181:2181 -p 60010:60010 -p 60000:60000 -p 60020:60020 -p 60030:60030 –h hbase-single --name=hbase_single wheretolive/hbase:single
 
 ```
 
