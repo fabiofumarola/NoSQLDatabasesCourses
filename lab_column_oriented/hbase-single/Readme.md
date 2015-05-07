@@ -42,6 +42,6 @@ and add <ip docker machine> hbase-single
 
 ```bash
 
-docker exec -it hbase_single bash
+docker exec -it hbase bash
 
 ```
